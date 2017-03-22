@@ -1,0 +1,9 @@
+Given an input file containing text lines where some of them are JSON parsable strings containing a key named “key”.
+
+Identify all the lines with a palindrome as the value of “key” and print out the count of matching lines.
+REST service
+Create a REST service that exposes two endpoints that calls the component created above:
+GET:/palindromes	
+Returns a list of all the values that are palindromes, one per line	
+GET:/palindromes/count
+Returns the sum of the number of lines containing palindromes	
